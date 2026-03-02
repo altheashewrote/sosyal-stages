@@ -1,4 +1,4 @@
-export default function ArtistsPage() {
+export default function MadeByHumans() {
     return (
         <div>
             <h3>hi</h3>
