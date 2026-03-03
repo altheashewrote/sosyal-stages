@@ -1,7 +1,6 @@
 'use client'
 import Button from "../ui/Button"
-import { useEffect, useState } from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import Link from 'next/link';
 import Image from "next/image";
 
 export default function Footer() {
@@ -22,7 +21,7 @@ export default function Footer() {
                 <a className="text-ara-white font-sm font-helvetica" href="https://instagram.com/sosyalstages">INSTAGRAM</a>
                 <a className="text-ara-white font-sm font-helvetica" href="https://tiktok.com/@sosyalstages">TIKTOK</a>
                 <a className="text-ara-white font-sm font-helvetica" href="https://www.youtube.com/@SosyalStages">YOUTUBE</a>
-                <Link to='/madebyhumans'>MADE BY HUMANS</Link>
+                <Link href='/madebyhumans'>MADE BY HUMANS</Link>
                 <p className="text-trap-grey font-sm font-helvetica">© 2026 SOSYAL STAGES LLC</p>
             </ul>
         </div>
