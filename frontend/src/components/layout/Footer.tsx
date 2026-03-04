@@ -18,11 +18,11 @@ export default function Footer() {
         </div>
         <div>
             <ul>
-                <a className="text-ara-white font-sm font-helvetica" href="https://instagram.com/sosyalstages">INSTAGRAM</a>
-                <a className="text-ara-white font-sm font-helvetica" href="https://tiktok.com/@sosyalstages">TIKTOK</a>
-                <a className="text-ara-white font-sm font-helvetica" href="https://www.youtube.com/@SosyalStages">YOUTUBE</a>
-                <Link href='/madebyhumans'>MADE BY HUMANS</Link>
-                <p className="text-trap-grey font-sm font-helvetica">© 2026 SOSYAL STAGES LLC</p>
+                <li><a className="text-ara-white font-sm font-helvetica" href="https://instagram.com/sosyalstages">INSTAGRAM</a></li>
+                <li><a className="text-ara-white font-sm font-helvetica" href="https://tiktok.com/@sosyalstages">TIKTOK</a></li>
+                <li><a className="text-ara-white font-sm font-helvetica" href="https://www.youtube.com/@SosyalStages">YOUTUBE</a></li>
+                <li><Link href='/made_by_humans'>MADE BY HUMANS</Link></li>
+                <li><p className="text-niteharts-grey font-sm font-helvetica">© 2026 SOSYAL STAGES LLC</p></li>
             </ul>
         </div>
     </div>

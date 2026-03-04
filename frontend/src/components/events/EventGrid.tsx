@@ -1,7 +1,6 @@
 'use client'
 import { Event } from "../../types/event"
 import EventCard from "./EventCard"
-import { useEffect, useState } from 'react';
 
 const mockEvents: Event[] = [
     {
@@ -16,7 +15,7 @@ const mockEvents: Event[] = [
 
 export default function EventGrid() {
     return (
-        <div className="grid-cols-2">
+        <div className="grid grid-cols-2">
             {mockEvents.map(event => (
                 <EventCard key={event.eventId} event={event} />)
             )}

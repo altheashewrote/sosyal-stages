@@ -1,8 +1,6 @@
 'use client'
 import { Event } from "../../types/event";
 import EventCard from "./EventCard";
-import Button from "../ui/Button";
-import { useEffect, useState } from 'react';
 
 const mockUpcoming: Event[] = [
     {
