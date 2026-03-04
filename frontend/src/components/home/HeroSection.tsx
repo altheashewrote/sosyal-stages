@@ -35,7 +35,7 @@ export default function HeroSection() {
             <div className="absolute inset-0 z-10 flex flex-col items-center justify-center gap-6 text-center text-white px-6">
 
                 {/* headline */}
-                <h1 className="font-horizon text-6xl md:text-8xl font-black uppercase leading-none tracking-tight">
+                <h1 className="font-horizon text-6xl md:text-8xl text-ara-white uppercase leading-none tracking-tight">
                     SETTING<br />THE<br />STAGE.
                 </h1>
 
